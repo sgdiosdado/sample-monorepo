@@ -13,3 +13,5 @@ You can always target and specific workspace command by using: `npm run <command
 *Importante note:*
 
 Dependencies in both `api/package.json` and `app/package.json`, are flatten and installed in a single `node_modules` folder at root level. Please don't run individual installs in each package, just install normally in root folder.
+
+This was built using `npm@8.13.2` and `node@16.14.0`, please consider this.
