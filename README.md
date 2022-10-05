@@ -8,7 +8,7 @@ Some important commands:
 - `npm run build` to build the app, copy the dist files to the api's static folder and then building the api package
 - `npm run start` to run the built server in production mode
 
-You can always target and specific workspace command by using: `npm run <command> --workspaces=<your-workspace>`.
+You can always target and specific workspace command by using: `npm run <command> --workspace=<your-workspace>`.
 
 *Importante note:*
 
