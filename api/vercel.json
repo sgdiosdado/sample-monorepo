@@ -3,12 +3,16 @@
     {
       "src": "index.ts",
       "use": "@vercel/node"
+    },
+    {
+      "src": "/static/*",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "dist/index.js"
+      "dest": "index.ts"
     }
   ]
 }
